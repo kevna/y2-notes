@@ -1,0 +1,43 @@
+Lecture01 (module switch) Uninformed search
+===========================================
+
+previous:
+---------
+* breadth-first-search
+	- finds optimal route (no matter what)
+	- big resources
+* depth-first-search
+	- smaller resource requirements
+	- no garentued route (probably a bad route)
+
+strategy evaluation
+-------------------
+###time complexity
+if time can be expressed polymonially then polynomial complexity
+> Big O notation
+for loop has linear complexity (n)
+1 nested for loop makes complexity n^2
+
+depth limited search
+--------------------
+to avoid pitfalls of depth-first:
+* imposes max depth
+* not garanteed to find best solution first
+if the depth limit is too small the search is not complete (may not find solutions)
+time complexity is O(b^l)
+for b = 10, l = 5: 111,110 nodes
+(b = branching factor, l = depth limit)
+spacial complexity = O(bl)
+
+uniform cost search
+-------------------
+modified breadth-first:
+* expands lowest path cost rather than shallowest unexpanded node
+* not step count but total weights (sum of edge weights)
+* sticks in forever loop if zero-cost action leads to same state
+uses a *priority queue*
+* identical to breadth-first if all steps are equally weighted (no priority)
+* garanteed to find optimal if every cost is +ve
+C* is cost of optimal solution
+
+

@@ -1,0 +1,59 @@
+Lecture 2
+=========
+
+Image Formats
+-------------
+* GIF	- non destructive compressed 8bit bitmap	_common web use_
+* TIFF	- non destructive compressed 24bit bitmap	_publication format_
+* JPEG	- efficient but destructive 24bit bitmap	_low bandwith web_
+* PS	- vector format (scalable, less transferable)
+
+Image Processing
+----------------
+consists of restoring, enhancing & interpreting images.
+expands to multimedia processing & can be applied to many disiplines
+
+Assesment
+=========
+abstract by friday 1 november
+	* not assesed, compulsory
+	* subject title & 200 word abstract
+demonstration (25/26Nov, 2/3Dec)
+	* 40% of mark
+	* implementation, comparison &  improvement of existing techniques or development of new techniques
+	* 5min demonstration + 5min Q/A
+	* ensure code runs on abernet
+	* lose 10% per missed session
+paper (by 0200 friday 13 Dec)
+	* hardcopy to filing cabinet, PDF & zipped code to blackboard
+	* bad format unmarked
+	* paper format on department pages
+
+criteria - demonstration
+	* problem clarity			(10%)
+	* functionality				(30%)
+	* quantitative evaluation		(25%)
+	* qualitative evaluation		(15%)
+	* discussion of problems & research	(10%)
+		- problems encountered, relationship to other image processing & further improvements
+	* demonstration clarity			(10%)
+criteria - paper
+	* problem clarity 				(10%)
+	* description of existing & used techniques	(30%)
+	* quantitative (25%) & qualitative (15%) evaluations
+	* discussion [as above]				(10%)
+	* presentation clarity				(10%)
+
+###warnings
+code
+must use low level language (java is low level now?)/C/C++
+must develop yourself, no skimping off other peoples code
+
+images
+should use images, screenshots, graphs etc.
+use *informative* captions
+
+citation
+cite tables, images etc.
+use bibliography, not just website resources
+

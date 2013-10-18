@@ -1,0 +1,33 @@
+introduction
+============
+
+worksheets
+get design patterns by the gang of four
+
+lecture 1 - Data Structures
+===========================
+* primitive types	(single data item)
+* data structure	(structured data)
+
+do worksheets to produce cod libraries
+
+aim for high cohesion - low coupling
+* cohesion (relationship between methods in class)
+* coupling (reliance on other classes)
+
+basic structures _collections_
+------------------------------
+* linear (arrays, lists, stacks, queues)
+* hash tables
+* trees & graphs
+
+### operations
+* build		(change content)
+* view		(read content)
+* query		(get information about the structure)
+* iterate	(run through elements in some order)
+
+sidenotes
+---------
+read around oak (java history)
+

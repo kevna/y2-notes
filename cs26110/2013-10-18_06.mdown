@@ -1,0 +1,39 @@
+lecture 06
+==========
+
+> see slides for textbook
+> remember to go over previous lectures
+
+informed search
+---------------
+
+###heurisitics
+a rule or principle used to guide the search
+* provides a method to offer additional knowledge of the problem
+* must provide reliable estimate of distance in search algorithms
+
+a good algorithm will find the best solution more quickly
+there are an infinate number of possibilities
+if an evaluation fuction (incorporating heuristics) is accurate it leads directly to the goal
+estimate of expected utility value from current position
+humans do this to avoid evaluating all possibilities
+	+ these come from experience
+
+###hill climbing
+iterative improvement
+* rarely stores states :. minimal memory use
+####greedy local
+start at current state = initial
+until current = goal or current = current
+	+ get children and evaluate
+	+ if one is best set current = child (w/ best score)
+graphy-pics on slides
+
+####drawbacks
+* local minima/maxima
+* plateau
+* ridges
+
+###best-first search
+
+

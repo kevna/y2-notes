@@ -1,0 +1,8 @@
+Lecture 2
+=========
+
+C grammer rules
+letter digit & underscore (no digit start)
+31 char significant for internal id
+first 8 char significant for external id
+

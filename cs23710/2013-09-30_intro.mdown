@@ -1,0 +1,16 @@
+C Programming
+=============
+
+C projects will be tested using the GCC install on the mint machines in the ant
+
+a C program is a collection of functions and global variables
+it has no nested functions
+it is contained in a set of C source & header files
+
+compilation process
+-------------------
+* preprocess
+* compilation
+* linking
+a compilation unit is a file compiled in isolation from the others
+linking is combining object files with library functions and startup code

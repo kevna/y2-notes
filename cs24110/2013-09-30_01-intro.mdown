@@ -1,0 +1,29 @@
+Image processing
+================
+
+* passive imaging
+	- energy source present
+	- uses ambient lighting
+* activing imaging
+	- use seperate energy source (eg. flash)
+	- more complicated & expensive
+
+not all images are of visible light :. visual phenomona (eg. xrays/ultrasound)
+
+each photo-pixel usually corresponds to a photosite which in turn contains (typically one) light sensor on the sensor matrix
+
+noise is fluctuation of pixel values (eg. high ISO):
+	* dark noise	- due to photon production by temperature
+	* readout noise	- charge from photosites
+	* photon noise	- difference in photon arrival time at sensor
+	* random noise	- traced to erroneous voltage/current fluctuation in circuitry
+reducing noise:
+	* avoid long exposure	-reduce excess photon evaluation
+	* avoid high ISO	-reduce light sensetivity
+	* favour larger sensors	-the EOS350D is shite
+	* use noise reduction software
+
+an image is a matrix of pixels defined by [at least] (x,y,z) where (x, y) is a position & z refers to the intensity _all relative to image_
+
+a 'true colour' image uses 24bit colour depth (8-bit RGB = ~16mill colours)
+
