@@ -1,0 +1,21 @@
+How to find solutions
+===========================
+
+Heuristics cost function: f(n) = g(n) + h(n)
+
+> prac one
+
+A star search
+-------------
+
+Informedness
+------------
+heuristics for 8 puzzle..
+* h1(n) = no. misplaced tiles
+* h2(n) = sum Manhattan distance
+> start state S
+* h1(S) = 6
+* h2(S) = 14
+> when h2(n) >= h1(n) for all n (and both < actual cost) then h2 is *more informed* than h
+A star for mario on slides
+
