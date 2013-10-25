@@ -1,0 +1,41 @@
+gameplaying
+===========
+> planing ahead against a hostile agent
+for perfect decisions:	minimax w/ alpha beta pruning
+imperfect decisions:	evaluation functions, cutting off the seach w/ alpha beta pruning
+limiting factor is game complexity
+
+previously he have not delt with opponents, how do we deal with opponents trying to make the best move too
+this makess for uncertainty
+also, time limits
+
+minimax
+-------
+two players are max & min
+max is the computer trying to maximize it's score, min is the perfect human opponent
+
+searching:
+* initial state (board position and who's move)
+* actions (legal moves)
+* terminal states (max wins at 1, min at -1)
+
+algorithm:
+* generate entire game tree
+* apply utility function
+* use utility of game branches to pick next move
+
+> minimax for NIM on slides
+
+* uses simple recursion (dfs on gametree)
+* works for more than two players
+* depth limit reduces 'intelligence' of the AI
+
+alpha-beta pruning
+------------------
+* eliminate branches without examining them
+* track alpha and beta for max(lower bound) and min(upper bound) scores found
+* discard branches that produce max lower than alpha
+* discard branches that produce min heigher than beta
+> pruning doesn't affect the final output, only makes the algorithm more efficient
+for a perfect ordering the branching factor will be halved
+
