@@ -1,0 +1,50 @@
+Evolutionary algotrithms
+========================
+
+terminology
+-----------
+Genes
+> encoding (rules) describing how an organism is built from tiny blocks
+
+Chromosomes
+> Long strings formed from connections of genes
+* a chromosome is a potential solution to the problem (maybe be a shitty solution)
+* could be bitstring, real, rules etc.
+
+Recombination
+> Organisms 'mating' to combine Genes
+
+an evolutionary algorithm is an iterative procedure which evolves a populations
+* each individual is a candidate solution to a problem
+* each individual is evaluated by a fitness function
+
+Population
+> the collection of potential solutions (chromosomes)
+
+Parents/Children
+> parents are selected, recombined to form children for next generation
+
+at each generation
+> best individuals are selected
+> operators are applied to selected individuals to produce offspring
+> see slides
+
+The Genetic Algorithm
+---------------------
+> directed search algorithms based on biological evolution
+* developed by John Holland (Michigan Uni ~1970)
+[GA applicatons on slides]
+[GA cycle on slides]
+
+Discrete representations
+Genotype (encoded as chromosomes)
+Phenotype is the form it is used in
+[See slides]
+
+selection
+---------
+[roulette wheel on slides]
+
+###rank based selection
+###tournament selection
+* can be parrallel processed
