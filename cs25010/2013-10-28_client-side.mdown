@@ -1,0 +1,13 @@
+client side
+===========
+> Studied more stuff we already knew.
+> remember to use jquery because it's better.#
+
+regex:
+object.test(string)
+> if you don't know regex what the hell are you doing here
+> and how did you get through 101?
+
+> be sure to use html5 and css3 because they are better than the outdated xhtml and css2
+> also adrian is an idiot for wanting us to use xhtml1.0 when xhtml1.1 is the standard
+

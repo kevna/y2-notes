@@ -1,0 +1,6 @@
+C styles and coding standards
+=============================
+> C in an unusual style can be difficult to read :. groups should adopt a standard to reduce difficulty
+
+lecturer is picky about line lengths.
+

@@ -1,0 +1,27 @@
+PHP
+===
+
+php OO
+------
+> has interfaces, magic methods and throwables with try-catch
+classes can be instansiated from strings
+uses function name() to define functions
+
+> covered <?php include "fn.ext" ?>
+> also available is require_once("fn.ext")
+
+php debugging
+-------------
+Static:		lint, PHPcodesniffer, IDE
+Dynamic:	xdebug and grind, PHP_debug
+browsers:	firebug, webdeveloper toolbar
+
+testing
+-------
+PHPUnit
+nb. codeception
+continuous integration
+code coverage
+
+> general PHP tips on slides
+
