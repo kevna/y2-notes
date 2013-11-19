@@ -1,0 +1,17 @@
+AVL Trees
+=========
+
+left-left (right-right)
+* the leftmost (rightmost) child node is the tallest child tree
+* images on slides
+
+left-right (right-left)
+* the left child's right node is the tallest child tree
+* images on slides
+
+localisation
+------------
+* imbalance can only occur on the insertion path
+* balancing should occur at the lowest possible point (shuffle as little of the tree as possible)
+
+> for procrastination: build AVL tree on BST structure
